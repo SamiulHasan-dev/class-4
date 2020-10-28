@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	box-sizing: border-box;;
+	padding: 0;
+}
+body{}
+header{
+   display: block;
+    background-color: #fbfbfb;
+}
+}
+.logo{width: 20%;flex: 0 0 auto;}
+.logo a{}
+.logo a img{}
+
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #241919c2;
+	padding: 13px 20px;
+	font-size: 15px;
+	display: block;
+}
+nav ul li a:hover{
+	color:#6fac6b;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+section{
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.yeallo{
+	background-image: url(../images/portfolio-item57.jpg);
+
+}
+.blue{
+	background-image: url(../images/portfolio-item58.jpg);
+
+}
+.red{
+	background-image: url(../images/portfolio-item59.jpg);
+
+}
+.green{
+	background-image: url(../images/portfolio-item60.jpg);
+
+}
+.pink{
+	background-image: url(../images/portfolio-item61.jpg);
+
+}
+
+section .container{
+	    height: 100%;
+    align-items: flex-start;
+    padding-bottom: 155px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+section h1{
+	    background-color: white;
+    padding: 10px;
+    font-size: 23px;
+
+}
+section h5{
+	font-size: 10px;
+    color: #8f6565;
+    padding-bottom: 10px;
+    PADDING-TOP: 12px;
+}
+section a{}
+h1 a{
+	    text-decoration: none;
+    color: #8b3636;
+}
+h5 a{
+	font-size: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+footer{}
+footer .container{
+    height: 15vh;
+}
+footer p{
+    padding: 10px 180px;
+}
+h5 a:hover {
+	background-color: #dddd1e;
+	color: black;
+	border: groove;
+}
